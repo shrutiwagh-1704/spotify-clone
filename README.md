@@ -8,3 +8,6 @@ A clean and responsive frontend clone of Spotify built using **HTML**, **CSS**, 
 - Music player progress bar (custom styled)
 - Hover effects for interactivity
 - Footer with social media icons
+  
+Demo:
+https://shrutiwagh-1704.github.io/spotify-clone/
