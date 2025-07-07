@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Font awewsome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify-Web Player:Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="./assets/white_logo.png">
+            </div>
+            <div class="searchbar">
+                <div class="home">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="bar">
+                    <input type="text" placeholder="What do you want to play">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <icon>|</icon>
+                    <img src="./assets/browse.png"/>
+                </div>
+            </div>
+
+            <div class="options">
+                <button>Explore Premium</button>
+                <div class="download">
+                    <i class="fa-regular fa-circle-down" style="color: #ffffff;"></i>
+                    <p>Install App</p>
+                </div>
+                <i class="fa-regular fa-bell" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-people-group" style="color: #fbfcfe;"></i>
+                <div class="login">S</div>
+            </div>
+        </div>
+        <!-- main middle content -->
+        
+        <div class="content-area">
+            <input type="checkbox" id="checked">
+            <label for="checked">
+                <img src="./assets/library_icon.png" class="lib-icon">
+            </label>
+            <!-- sidebar -->
+            <div class="sidebar">
+                <div class="library">
+                    <div class="lib-title">YourLibrary</div>
+                    <div class="create">
+                        <i class="fa-regular fa-plus"></i>
+                        <a href="#">Create</a>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="section1">
+                        <h4>Create your first playlist</h4>
+                        <p>It's easy, we'll help you </p>
+                        <button>
+                            Create playlist
+                        </button>
+                    </div>
+
+                    <div class="section1">
+                        <h4>Let's find some podcasts to follow</h4>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button>
+                            Browse podcasts
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main content -->
+            <div class="mainContents">
+                <div class="sticky-nav">
+                    <input type="radio" id="btn1" name="toggle" checked>
+                    <label class="btn1" for="btn1">All</label>
+
+                    <input type="radio" id="btn2" name="toggle"  >
+                    <label class="btn2" for="btn2">Music</label>
+
+                    <input type="radio" id="btn3" name="toggle" >
+                    <label class="btn3" for="btn3">podcasts</label>
+                </div>
+
+                <div class="cards">
+                    <h2>India's Best</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card4img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card5img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card6img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+                    </div>
+
+                    <h2>Featured Charts</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card4img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                          <div class="card">
+                            <img src="./assets/card5img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                          <div class="card">
+                            <img src="./assets/card6img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+                    </div>
+
+                    <h2>Charts</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card4img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                          <div class="card">
+                            <img src="./assets/card5img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                          <div class="card">
+                            <img src="./assets/card6img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+                    </div>
+
+
+                    <h2>India's Best</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card4img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                          <div class="card">
+                            <img src="./assets/card5img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                          <div class="card">
+                            <img src="./assets/card6img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+                    </div>
+
+
+                    <h2>Charts</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card2img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card4img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                          <div class="card">
+                            <img src="./assets/card5img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+
+                          <div class="card">
+                            <img src="./assets/card6img.jpeg">
+                            <i class="fa-solid fa-circle-play" style="color: #1ed760;"></i>
+                            <p class="card-info">The hottest tracks in India.Cover:...</p>
+                        </div>
+                    </div>
+
+
+                    <div class="footer">
+                        <div class="line">
+                            <div class="company" id="text">company
+                                <ul>
+                                    <li>About</li>
+                                    <li>Jobs</li>
+                                    <li>For the Record</li>
+                                </ul>
+                            </div>
+                            <div class="communities" id="text">communities
+                                <ul>
+                                    <li>For Artists</li>
+                                    <li>Developers</li>
+                                    <li>Advertising</li>
+                                    <li>Investors</li>
+                                    <li>Vendors</li>
+                                </ul>
+                            </div>
+                            <div class="useful-link" id="text">useful-link
+                                <ul>
+                                    <li>Support</li>
+                                    <li>Free Mobile App</li>
+                                </ul>
+                            </div>
+                            <div class="spotify-plans" id="text">spotify-plans
+                                <ul>
+                                    <li>Premium</li>
+                                    <li>Individual</li>
+                                    <li>Premium Duo</li>
+                                    <li>Premium Family</li>
+                                    <li>Premium Student</li>
+                                    <li>Spotify Free</li>
+                                </ul>
+                            </div>
+                            <div class="social-media" id="text" >
+                                <div class="social-icon">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+
+                                <div class="social-icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+
+                                <div class="social-icon">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--MusicPlayer..  -->
+        <div class="musicPlayer">
+            <div class="album">
+                <img src="./assets/album1.jpg">
+                <div class="singer-name">
+                    <p>Aam Jahe Munde</p>
+                    <p style="color: rgb(157, 160, 160);">Parmish Verma,PARDHAAN</p>
+                </div>
+                <!-- <i class="fa-solid fa-circle-plus" style="color: #faf7f7;"></i> -->
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="rgb(157, 160, 160)"><path d="M440-280h80v-160h160v-80H520v-160h-80v160H280v80h160v160Zm40 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
+            </div>
+
+            <div class="music-bar">
+                <div class="music-bar-controls">
+                    <img src="./assets/player_icon1.png">
+                    <img src="./assets/player_icon2.png">
+                    <img src="./assets/player_icon3.png" style="width: 40px; height: 40px; opacity: 1;">
+                    <img src="./assets/player_icon4.png">
+                    <img src="./assets/player_icon5.png">
+                </div>
+                <div class="music-progress-bar">
+                    <span>00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span>3.27</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./assets/controls_icon1.png" style="height: 30px; width: 30px;">
+                <img src="./assets/controls_icon2.png" style="height: 30px; width: 30px;">
+                <img src="./assets/controls_icon3.png" style="opacity: 0.7;">
+                <img src="./assets/controls_icon4.png" style="opacity: 0.7;">
+                <img src="./assets/controls_icon5.png" style="height: 30px; width: 30px;">
+                <input type="range" class="control-bar">
+                <img src="./assets/album_icon2.png" style="height: 30px; width: 30px;">
+                <i class="fa-solid fa-expand" style="color: #ffffff; opacity: 0.7;"></i>
+
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
